@@ -1,0 +1,128 @@
+VERSION = 1,
+
+option RechargeableBatteries.CraftTimeBase
+{
+    type = integer,
+    min = 0,
+    max = 1000,
+    default = 40,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.CraftTimeBase,
+}
+
+option RechargeableBatteries.MinimumStrength
+{
+    type = integer,
+    min = 0,
+    max = 10,
+    default = 2,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.MinimumStrength,
+}
+
+option RechargeableBatteries.DoContinuousCharging
+{
+    type = boolean,
+    default = true,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.DoContinuousCharging,
+}
+
+option RechargeableBatteries.FillerBlock
+{
+    type = boolean,
+    default = false,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.FillerBlock,
+}
+
+option RechargeableBatteries.StrengthBasedTime
+{
+    type = boolean,
+    default = true,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.StrengthBasedTime,
+}
+
+option RechargeableBatteries.CraftTimeSpeedup
+{
+    type = integer,
+    min = 0,
+    max = 1000,
+    default = 5,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.CraftTimeSpeedup,
+}
+
+option RechargeableBatteries.CraftTimeSlowdown
+{
+    type = integer,
+    min = 0,
+    max = 1000,
+    default = 10,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.CraftTimeSlowdown,
+}
+
+option RechargeableBatteries.FillerBlock
+{
+    type = boolean,
+    default = false,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.FillerBlock,
+}
+
+option RechargeableBatteries.Unfinished
+{
+    type = boolean,
+    default = false,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.Unfinished,
+}
+
+option RechargeableBatteries.AllowOvercharge
+{
+    type = boolean,
+    default = false,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.AllowOvercharge,
+}
+
+option RechargeableBatteries.OverchargeLimit
+{
+    type = double,
+    min = 1.0,
+    max = 100.0,
+    default = 2.0,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.OverchargeLimit,
+}
+
+option RechargeableBatteries.FillerBlock
+{
+    type = boolean,
+    default = false,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.FillerBlock,
+}
+
+option RechargeableBatteries.TranslationCreator
+{
+    type = boolean,
+    default = false,
+
+    page = RechargeableBatteries,
+    translation = RechargeableBatteries.TranslationCreator,
+}
